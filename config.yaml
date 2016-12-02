@@ -1,0 +1,51 @@
+# 所有项目的配置
+
+
+# 服务器相关配置
+host: 
+    domain:     'honpery.com'
+    ip:         '139.129.29.110'
+
+
+# 各应用配置
+app:
+    # 接口
+    api:
+        port: 7000
+    
+    # 首页
+    index:
+        port: 7100
+    
+    # 博客
+    blog:
+        port: 7200
+    
+    # 后台
+    admin:
+        port: 7300
+
+    # 微信
+    wechat:
+        port: 7400
+
+    # 演示
+    demo:
+        port: 7500
+
+    # 短域名
+    short:
+        port: 7600
+
+
+# 数据库
+db:
+    host: '139.129.29.110'
+    port: 27017
+    name: 'honpery_com'
+
+redis:
+    host: '139.129.29.110'
+    port: 6379
+    name: 'honpery_com'
+
